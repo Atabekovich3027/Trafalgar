@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+   font-family: sans-serif;
+   box-sizing: border-box;
+
+}
+
+.navbar{
+    display: flex ;
+    padding: 20px 40px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navbar__brand{
+    cursor: pointer;
+    font-weight: bold;
+}
+.navbar__menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar__item{
+    text-transform: uppercase;
+    font-size: 13.5px;
+    cursor: pointer;
+}
+.navbar__end{
+display: flex;
+gap: 10px;
+align-items: center;
+}
+.navbar__end-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-transform: uppercase;
+    font-size: 13.5px;
+    cursor: pointer;
+}
+.navbar__end-item img{
+    width: 20px;
+}
+
+.header{
+    background-color: #f8f8f8;
+    width: 94%;
+    margin: auto;
+    padding:150px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header__content{
+    width: 40%;
+}
+.header__title{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.header__subtitle{
+
+    margin-bottom: 20px;
+    line-height: 23px;
+
+}
+.header__image img{
+    width: 100%;
+}
+.button{
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 12px 35px;
+    transition: .3s;
+    cursor: pointer;
+}
+.button_orange{
+    background-color: #f89646;
+    color: white;
+}
+.button_orange:hover{
+    background-color: white;
+    color: #f89646;
+    outline: 1px solid #f89646;
+}
+
+
+.button_global{
+    background-color:rgb(85, 85, 236);
+    color: white;
+}
+.button_global:hover{
+    background-color: white;
+    color: #6bb7be;
+    outline: 1px solid  #6bb7be;
+}
+
+
+.collection{
+    padding: 40px 10%;
+}
+.collection__title{
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+.collection__subtitle{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.collection__items{
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.collection__items img{
+    width: 80%;
+    display: block;
+    margin: 20px;
+}
+.collection__item{
+    width: 30%;
+    background-color: #f8f8f8;
+    margin: 30px 0;
+    padding: 30px;
+}
+.collection__item-name{font-weight: 400;
+margin-bottom: 5px;
+font-size: 15px;
+
+}
+.collection__details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.collection__details p span{
+    color: #6bb7be;
+}
+.collection__button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #6bb7be;
+    text-transform: uppercase;
+}
+
+.contact{
+    background-color: #f8f8f8;
+    width: 94%;
+    margin: auto;
+    padding: 50px 100px;
+    box-sizing: border-box;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact__title{
+    font-size: 37px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.contact__inputs, .contact__map{
+    width: 48%;
+}
+.contact__input{
+    display: block;
+    width: 100%;
+    max-width: 20px 0;
+    font-size: 17px;
+    padding: 15px 10px;
+    border: none;
+    outline: none;
+}
